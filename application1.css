@@ -1,0 +1,108 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: auto;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgb(207, 205, 205);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.data label {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.data input[type="text"],
+.data input[type="email"],
+.data input[type="tel"],
+.data input[type="date"],
+.data select,
+.data input[type="file"] {
+    width: 70%;
+    min-height: 35px; 
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 1.5px rgb(201, 166, 166);
+    font-size: 15px;
+    padding: 0 10px;
+    margin-bottom: 15px; 
+
+}
+
+.data input[type="radio"] {
+    margin-right: 10px;
+    width: auto;
+    box-shadow: none;
+}
+
+.radio-group label {
+    display: block;
+    margin-bottom: 10px; 
+    color: #555;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 5px;
+    width: 80%;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+#country {
+    width: 50%; 
+
+}
+
+button,
+input[type="submit"] {
+    width: 100%;
+    max-width:200px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(82, 194, 228);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    margin-inline: 160px;
+    margin-top: 20px; 
+}
+
+button:hover,
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
